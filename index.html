@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo App</title>
+		<link rel="stylesheet" href="todo.css" />
+		<script defer src="todo.js"></script>
+	</head>
+	<body>
+		<h1 class="center">Todo App</h1>
+
+		<div class="container">
+			<form action="" class="grid-container" id="todo-form" >
+				<input
+					type="text"
+					name="todo-name"
+					id="todo-name"
+					placeholder="Enter TODO here"
+					required
+				/>
+				<input type="date" id="due-date" required />
+				<button type="submit" class="btn add-btn">Add</button>
+			</form>
+
+			<div class="todo-container grid-container"></div>
+		</div>
+	</body>
+</html>
