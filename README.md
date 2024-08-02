@@ -17,8 +17,8 @@ To get started with the Simple To-Do App, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/simple-todo-app.git
-    cd simple-todo-app
+    git clone https://github.com/Digambar1411/TodoApp.git
+    cd TodoApp
     ```
 
 2. **Open `index.html`**:
